@@ -1,0 +1,13 @@
+{application, erl_py_modbus_tk,
+    [
+        {description, "Erlang wrapper for modbus-tk on Python"},
+        {vsn, "0.0.1"},
+        {registered, []},
+        {mod, {erl_py_modbus_tk_app, []}},
+        {applications, [
+            kernel,
+            stdlib
+        ]},
+        {env,[]},
+        {modules, []}
+    ]}.
